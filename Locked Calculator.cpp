@@ -1,3 +1,4 @@
+#the code is still updating to fix problems;
 #include<iostream>
 using namespace std;
 int a[1005];
