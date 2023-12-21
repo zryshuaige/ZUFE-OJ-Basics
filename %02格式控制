@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main()
+//%02 是一个格式化标记，用于指定  输出的宽度和填充。
+//具体来说，%02 表示输出至少两位字符宽度，并在必要时用零进行填充。
+{
+	double x=2;
+	printf("%02f %02f %f \n",x,x,x);
+	printf("%.2f",x);//而%.2为两位小数 
+	return 0;
+} 
